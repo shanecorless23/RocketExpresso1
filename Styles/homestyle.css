@@ -599,3 +599,36 @@ UL {
     flex-direction: column;
   }
 }
+
+.menuitems {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Style the signpost h2 */
+.menuitems h2 {
+  font-size: 32px;
+  background-color: #ffcc00; /* Choose your desired background color */
+  color: #ffffff; /* Choose your desired text color */
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+/* Create the signpost arrow */
+.menuTitle h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #ffcc00; /* Use the same background color as the heading */
+  transform: translateY(-50%);
+  z-index: -1;
+}
