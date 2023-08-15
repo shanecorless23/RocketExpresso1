@@ -595,8 +595,13 @@ UL {
 }
 
 @media (max-width: 600px) {
-  .container {
+  .basecontainer {
     flex-direction: column;
+    width: 300px;
+    align-items: center;
+  }
+  .basecontainer .photo {
+    margin-left: 60px;
   }
 }
 
@@ -631,4 +636,12 @@ UL {
   border-right: 15px solid #ffcc00; /* Use the same background color as the heading */
   transform: translateY(-50%);
   z-index: -1;
+}
+.trendy-sign {
+  background-color: #ffa500; /* Orange background */
+  color: #fff; /* White text color */
+  padding: 10px;
+  font-size: 28px;
+  border-radius: 5px;
+  display: inline-block;
 }
