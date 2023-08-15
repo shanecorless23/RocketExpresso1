@@ -541,6 +541,12 @@ UL {
     height: 300px;
     width: 300px;
   }
+  .trendy-sign {
+    margin: 10px;
+  }
+}
+.menuitems h2 {
+  margin-left: 5px;
 }
 
 .grid-container {
