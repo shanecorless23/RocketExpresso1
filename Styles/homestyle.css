@@ -470,19 +470,17 @@ UL {
   word-spacing: 5%;
   margin-left: 30px;
 }
-
 .menulist {
-  margin: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-color: #222;
+  border-bottom: solid;
+  margin: 60px;
+  margin-top: 10px;
+  padding-bottom: 100px;
 }
 .menulistfood {
   margin-bottom: 10px;
   padding: 10px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000000;
 }
 .menuTitle {
   text-align: center;
