@@ -340,6 +340,7 @@ ul li {
 .gallerycontainer img {
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 .gallerytitle {
