@@ -1,139 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<meta name="google-site-verification" content="mXNQl2uzSQFmxGdPT2wqO8QiTlAlRpWYtZdSzH0SSdk" />
-    <script src="./Scripts/navbar.js"></script>
-    <link rel="stylesheet" href="./Styles/homestyle.css" />
-    <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-  />
+    <meta
+      name="description"
+      content="Rocket Expresso - A Restaurant that suits your healthy needs. Visit us at two convenient locations in Cavan."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="google-site-verification"
+      content="mXNQl2uzSQFmxGdPT2wqO8QiTlAlRpWYtZdSzH0SSdk"
+    />
     <title>Rocket Expresso</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Google Fonts - Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Styles/homestyle.css" />
   </head>
   <body>
-<div class="nav">
-  <input type="checkbox" id="nav-check">
-  <div class="nav-header">
-    <div class="nav-title">
-      <img src="./Images/LOGO.PNG" class="navlogo">
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: orange"
+    >
+      <a class="navbar-brand" href="./index.html">
+        <img
+          src="./Images/LOGO.PNG"
+          class="navlogo"
+          width="100px"
+          height="100px"
+          alt="Rocket Expresso Logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html" style="color: white"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Menu.html" style="color: white"
+              >Ingredients</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html" style="color: white"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <img src="./images/CofeeShop.jpg" alt="Your Photo" class="img-fluid" />
     </div>
-  </div>
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-  
-  <div class="nav-links">
-    <a href="./index.html" >Home</a>
-    <a href="./Menu.html" >Ingredients</a>
-    <a href="./contact.html" >Contact</a>
 
-  </div>
-</div>
-    <div class="container">
-      
-      <div class="headerindex">
-       
-       
-        
-        
-        
-    </div>
+    <!-- Main Content Container -->
+    <div class="container mt-4">
+      <!-- Header -->
+      <div class="text-center">
+        <h1 class="display-4" style="color: orange">
+          Welcome To Rocket Expresso
+        </h1>
+        <h2 class="mb-4">A Restaurant that suits your healthy needs!</h2>
+      </div>
 
- 
-
-      <div class="welcomingsection" >
-        <h1 style="color: orange; text-align: center">
-          <i>Welcome To rocket Expresso</i>
-          <h2>A Resturant that suits your healthy needs!</h2>
-       
-          <div>
-            <p>
-            
-Welcome to Rocket Expresso, where we embark on an exciting mission to delight your taste buds with exquisite food and coffee. Whether you're a dedicated fitness enthusiast or a leisurely Sunday stroller seeking a delectable treat, we have something special in store for everyone.
-
-For coffee aficionados craving that perfect cup, Rocket Expresso is your haven. We are thrilled to announce our presence in two convenient locations: one on the Ballinagh Road and another on Main Street in Cavan.
-
-Come visit us at either of our locations and treat yourself to an unforgettable experience.
-            </p>
-          </div>
-       
+      <!-- Welcome Section -->
+      <div class="row">
+        <div class="col-lg-6">
+          <p>
+            Welcome to Rocket Expresso, where we embark on an exciting mission
+            to delight your taste buds with exquisite food and coffee. Whether
+            you're a dedicated fitness enthusiast or a leisurely Sunday stroller
+            seeking a delectable treat, we have something special in store for
+            everyone.
+          </p>
+          <p>
+            For coffee aficionados craving that perfect cup, Rocket Expresso is
+            your haven. We are thrilled to announce our presence in two
+            convenient locations: one on the Ballinagh Road and another on Main
+            Street in Cavan.
+          </p>
+          <p>
+            Come visit us at either of our locations and treat yourself to an
+            unforgettable experience.
+          </p>
         </div>
-        
+        <div class="col-lg-6">
+          <img
+            src="./Images/Qkangaroo.png"
+            style="padding: 10px"
+            width="200px"
+            height="200px"
+          />
+          <img
+            src="./Images/just Eat Logo.png"
+            style="padding: 10px"
+            width="200px"
+            height="200px"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <!-- Services Provided section -->
+        <section class="services-section">
+            <h2 class="service-title">Services Provided</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <i class="fas fa-utensils service-icon"></i>
+                        <h3>Food</h3>
+                        <p class="service-text">At Rocket Expresso, we are passionate about serving delicious and wholesome food options that cater to your cravings. Our menu features a delectable selection of sandwiches and wraps, crafted with the finest ingredients to tantalize your taste buds. For a refreshing and nutritious choice, indulge in our vibrant smoothie bowls, bursting with flavors and packed with goodness. When you're in the mood for something comforting, our soups will warm your heart, and our salads offer a healthy and satisfying choice for those seeking a lighter option. Whether you're looking for a hearty meal or a quick and healthy bite, our food menu has something to satisfy every palate. Join us for a delightful dining experience at Rocket Expresso!</p>
+                        <a href="#" class="btn btn-primary order-button">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <i class="fas fa-coffee service-icon"></i>
+                        <h3>Coffee</h3>
+                        <p class="service-text">Enjoy our freshly brewed coffee.</p>
+                        <p class="service-text">We take pride in serving delicious coffee that's sure to satisfy your taste buds. At Rocket Expresso, we offer a diverse range of coffee options, including rich and aromatic espresso, velvety cappuccinos, and creamy lattes. For those who prefer something sweeter, don't miss out on our flavorful mochas, and if you're looking for a refreshing twist, our iced coffees are a perfect choice. Whether you're a fan of classic black coffee or fancy a specialty brew, our coffee menu has something for everyone. Experience the perfect cup of coffee at Rocket Expresso! Pop in and Enjoy some delicious coffee at Rocket Expresso!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <i class="fas fa-birthday-cake service-icon"></i>
+                        <h3>Desserts</h3>
+                        <p class="service-text">Indulge your sweet tooth at Rocket Expresso with our delightful dessert offerings. We take pride in offering a tempting array of treats, including creamy and flavorful ice cream that's perfect for satisfying your cravings. For those who love the classic combination of ice cream and milk, our milkshakes are a creamy, dreamy delight. And if you're looking for a cool and caffeinated pick-me-up, our frappuccinos are a must-try. Whether you're seeking a refreshing treat on a warm day or a sweet reward to end your meal, our dessert menu has a delightful option waiting for you. Treat yourself to something sweet and scrumptious at Rocket Expresso!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <!-- Center-aligned sit-in logos -->
+                    <div class="text-center">
+                        <!-- Placeholder logo (you can replace this with your actual logo) -->
+                        <img src="./Images/LOGO.PNG" alt="Rocket Expresso Logo" class="placeholder-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+          
+        </section>
+      </div>
+      <!-- Gallery Section -->
 
-
-      
-
-
-
-    
-    
       <div class="gallerysection">
         <div class="gallerytitle">
-      <h2 class="gallery">Gallery</h2>
-      <a href="https://www.instagram.com/Rocketexpresso_/" target="_blank">
-      <img src="./Images/instagram.svg" height="50px" width="50px" >
-    </a>
+          <h2 class="gallery">Gallery</h2>
+          <a href="https://www.instagram.com/Rocketexpresso_/" target="_blank">
+            <img src="./Images/instagram.svg" height="50px" width="50px" />
+          </a>
+        </div>
+        <div class="gallerycontainer">
+          <img src="./Images/smoohtie.jpg" alt="Cavan Coffee" />
+          <img src="./Images/salads.jpg" alt="Cavan IceCream" />
+          <img src="./Images/Coffeesandwich.jpg" alt="Cavan Sandwich" />
+          <img src="./Images/fruit.jpg" alt="Delicous Fruit Coffee Cavan" />
+          <img src="./Images/lemondrink.jpg" alt="lemonade cavan" />
+          <img src="./Images/treats.jpg" alt="treats" />
+          <img src="./Images/ballinaghTruck.jpg" />
+          <img src="./Images/squid.jpg" />
+          <img src="./Images/fruitbowels.jpg" />
+          <img src="./Images/treats.jpg"/>
+        </div>
+      </div>
     </div>
-      <div class="gallerycontainer">
-       
-        <img src="./Images/smoohtie.jpg" alt="Cavan Coffee">
-        <img src="./Images/salads.jpg" alt="Cavan IceCream">
-        <img src="./Images/Coffeesandwich.jpg" alt="Cavan Sandwich">
-        <img src="./Images/fruit.jpg">
-        <img src="./Images/lemondrink.jpg">
-        <img src="./Images/treats.jpg">
-        <img src="./Images/ballinaghTruck.jpg">
-        <img src="./Images/squid.jpg">
-        <img src="./Images/fruitbowels.jpg">
-        <img src="./Images/coffee snack.jpg">
+
+    <!-- Footer -->
+    <footer
+      class="footer text-center py-3"
+      style="background-color: orange; color: white"
+    >
+      <div class="social">
+        <a href="https://www.instagram.com/Rocketexpresso_/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/p/Rocket-Expresso-100087027943572/"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
       </div>
-      
-      </div>
-    
-      </div>
-      </div>
-  </div>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="./Menu.html">Ingredients</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        Rocket Expresso @ 2023 All Rights Reserved | Website Developed by Shane
+        Corless
+      </p>
+    </footer>
 
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-
- 
-  <section class="footer">
-    <div class="social">
-      <a href="https://www.instagram.com/Rocketexpresso_/"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/p/Rocket-Expresso-100087027943572/"><i class="fab fa-facebook-f"></i></a>
-    </div>
-    <ul class="list">
-      <li>
-        <a href="./index.html">Home</a>
-      </li>
-      <li>
-        <a href="./Menu.html">Ingredients</a>
-      </li>
-        <a href="./contact.html">Contact</a>
-      </li>
-    </ul>
-    <div id="mc_embed_shell">
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-        #mc_embed_signup{background:orange; color: white false;clear:left; font:14px ;    margin-left: 35%;align-content: center;  width: 250px; }
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-  </style>
-
-
-    <p class="copyright">Rocket Expresso @ 2023 All Rights Reserved | Website Developed by Shane Corless</p>
-  
-  </section>
-      
-
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -4,7 +4,6 @@
 
 body {
   margin: 0px;
-  font-family: "segoe ui";
 }
 
 .nav {
@@ -183,12 +182,6 @@ body {
   justify-content: center;
 }
 
-p {
-  font-size: 14px;
-  opacity: 45%;
-  align-content: center;
-  margin: 120px;
-}
 .child img {
   width: 400px;
   height: 500px;
@@ -199,11 +192,6 @@ p {
   margin: 10px;
   color: white;
   text-align: center;
-}
-@media screen and (min-width: 601px) {
-  p {
-    font-size: 22px;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -654,4 +642,80 @@ UL {
   font-size: 28px;
   border-radius: 5px;
   display: inline-block;
+}
+.navbar {
+  color: black !important;
+  background-color: gold !important;
+}
+
+.gallerysection img {
+  height: 200px;
+}
+.gallerycontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 15px;
+}
+.gallerycontainer img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.gallerytitle {
+  align-content: center;
+  text-align: center;
+  color: rgb(97, 97, 97);
+  font-size: 2em;
+  line-height: 1.5%;
+  letter-spacing: 10px;
+}
+
+.gallerycontainer img {
+  height: 300px;
+}
+
+.gallery {
+  color: orange;
+
+  padding-left: 25px;
+}
+.services-section {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+.order-button {
+  margin: 20px;
+}
+
+.service-title {
+  font-size: 24px;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.service-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.sit-in-logo {
+  display: inline-block;
+  margin: 10px;
+}
+
+.placeholder-logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+.services-section {
+  font-size: 16px;
 }
