@@ -387,7 +387,7 @@ UL {
   display: none;
 }
 .footer {
-  background-color: #b7a56f;
+  background-color: orange;
   color: white;
   font-weight: 400;
   bottom: 0;
@@ -714,13 +714,10 @@ UL {
 .openingcontainer {
   text-align: center;
   /* Set the background color to white */
-  color: #e6e6e6;
 }
 
 .opening-hours {
-  letter-spacing: 10px;
-  color: #bbaa55; /* Adjust letter spacing for the title */
-  font-size: 26px;
+  letter-spacing: 2px; /* Adjust letter spacing for the title */
 }
 
 .column-container {
