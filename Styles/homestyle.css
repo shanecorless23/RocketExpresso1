@@ -747,7 +747,7 @@ UL {
   }
   .imgcoffee {
     height: 360px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px;
+    width: 340px;
   }
 }
