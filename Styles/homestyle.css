@@ -5,13 +5,15 @@
 body {
   margin: 0px;
   font-family: "segoe ui";
+  background-color: #595959;
 }
 
 .nav {
   height: 90px;
   width: 100%;
-  background-color: orange;
+  background-color: #b7a57a;
   position: absolute;
+  color: #b7a56f;
 }
 
 .nav > .nav-header {
@@ -385,7 +387,7 @@ UL {
   display: none;
 }
 .footer {
-  background-color: orange;
+  background-color: #b7a56f;
   color: white;
   font-weight: 400;
   bottom: 0;
@@ -654,4 +656,92 @@ UL {
   font-size: 28px;
   border-radius: 5px;
   display: inline-block;
+}
+.containerstart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image {
+  flex: 1; /* Take up 50% of the available width */
+}
+
+.content {
+  flex: 1; /* Take up 50% of the available width */
+  text-align: center;
+  margin-top: 100px; /* Add margin from the top */
+}
+
+.content img {
+  display: block;
+  margin: 10px auto 0; /* Add 10px margin on top */
+  width: 250px;
+  height: 250px;
+}
+
+.order-button {
+  display: block;
+  margin: 10px auto;
+  width: 450px;
+  height: 100px;
+  letter-spacing: 1rem;
+  background-color: #a99975;
+  color: #e6e6e6;
+  font-size: 24px;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .containerstart {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image,
+  .content {
+    flex: unset; /* Reset the flex property for mobile layout */
+  }
+
+  .content img {
+    margin: 10px auto 10px; /* Adjust the margin for mobile layout */
+  }
+}
+.address {
+  color: #e6e6e6;
+}
+.openingcontainer {
+  text-align: center;
+  /* Set the background color to white */
+  color: #e6e6e6;
+}
+
+.opening-hours {
+  letter-spacing: 10px;
+  color: #bbaa55; /* Adjust letter spacing for the title */
+  font-size: 26px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 33.33%;
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .column-container {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
 }
