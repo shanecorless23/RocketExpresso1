@@ -714,10 +714,13 @@ UL {
 .openingcontainer {
   text-align: center;
   /* Set the background color to white */
+  color: white;
 }
 
 .opening-hours {
   letter-spacing: 2px; /* Adjust letter spacing for the title */
+  color: #a99975;
+  font-size: 24px;
 }
 
 .column-container {
