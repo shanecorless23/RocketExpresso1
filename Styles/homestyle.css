@@ -679,8 +679,8 @@ UL {
 .order-button {
   display: block;
   margin: 10px auto;
-  width: 450px;
-  height: 100px;
+  width: 350px;
+  height: 50px;
   letter-spacing: 1rem;
   background-color: #a99975;
   color: #e6e6e6;
@@ -744,13 +744,14 @@ UL {
     width: 100%;
   }
   .order-button {
-    margin-left: 200px;
-    margin-right: 200px;
-    width: 350px;
+    width: 200px;
+    font-size: 10px;
+    letter-spacing: 5px;
   }
   .imgcoffee {
-    height: 360px;
-    margin: 10px;
-    width: 340px;
+    height: 300px;
+  }
+  .address {
+    margin-right: 60px;
   }
 }
