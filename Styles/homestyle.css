@@ -666,15 +666,14 @@ UL {
 
 .content {
   flex: 1; /* Take up 50% of the available width */
-  text-align: center;
   margin-top: 100px; /* Add margin from the top */
 }
 
 .content img {
   display: block;
-  margin: 10px auto 0; /* Add 10px margin on top */
-  width: 250px;
-  height: 250px;
+  margin-left: 100px; /* Add 10px margin on top */
+  width: 150px;
+  height: 150px;
 }
 
 .order-button {
@@ -687,8 +686,12 @@ UL {
   color: #e6e6e6;
   font-size: 24px;
   border: none;
+  margin-left: 100px;
 }
-
+.address {
+  margin-left: 100px;
+  margin-top: 0;
+}
 @media screen and (max-width: 767px) {
   .containerstart {
     flex-direction: column;
